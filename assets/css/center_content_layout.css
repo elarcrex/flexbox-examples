@@ -1,0 +1,88 @@
+@import 'reset.css';
+@import 'colors.css';
+
+.center-content-layout {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.wrapper {
+	width: 1200px;
+	max-width: 1400px;
+}
+
+header h1 {
+	padding: 20px 0 0 15px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu a {
+	display: block;
+	color: #FFFFFF;
+	padding: 7px 18px;
+}
+
+.menu a:hover {
+	background-color: #DCC6E0;
+}
+
+main > h2 {
+	padding:10px 0 0 15px;
+}
+
+.banner {
+	padding-top: 70px;
+	height: 200px;
+	background-color: #DDDDDD;
+	margin: 15px;
+	text-align: center;
+}
+
+.banner:before {
+	content: " Banner Image";
+}
+
+article {
+	padding: 0 15px 15px;
+}
+
+.sections {
+	display: flex;
+	justify-content: space-between;
+}
+
+section {
+	width: 30%;
+	background: #DDDDDD;
+	padding: 15px;
+}
+
+section img {
+	height: 150px;
+}
+
+footer {
+	padding: 10px 15px;
+}
+
+/* A few responsive properties added */
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 13px;
+	}
+	.menu {
+		justify-content: space-around;
+	}
+	.sections {
+		flex-direction: column;
+	}
+
+	section {
+		width: auto;
+	}
+}

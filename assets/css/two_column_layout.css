@@ -1,0 +1,66 @@
+@import 'reset.css';
+@import 'colors.css';
+
+.two-columns {
+	display: flex;
+	width: 100%;
+	min-height: 100%;
+}
+
+aside {
+	width: 250px;
+	min-height: 100%;
+}
+
+aside h3 {
+	margin: 20px 0 10px 10px;
+}
+
+aside ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+main > h2 {
+	margin: 10px;
+}
+
+main div {
+	flex-grow: 1;
+}
+
+main article {
+	padding: 10px;
+}
+
+header {
+	padding: 20px 0 20px 10px;
+}
+
+footer {
+	padding: 10px;
+}
+
+.show-on-mobile {
+	display: none;
+}
+
+/* A few responsive properties added */
+@media screen and (max-width: 768px) {
+	.hide-on-mobile {
+		display: none;
+	}
+
+	.show-on-mobile {
+		display: block;
+		width: auto;
+		min-height: auto;
+		padding-bottom: 20px;
+	}
+}

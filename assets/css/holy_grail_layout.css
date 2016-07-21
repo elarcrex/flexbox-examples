@@ -1,0 +1,58 @@
+@import 'reset.css';
+@import 'colors.css';
+
+.holy-grail {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+header, footer {
+	padding: 10px 0;
+	text-align: center;
+}
+
+div {
+	display: flex;
+	height: 100%;
+}
+
+aside,
+nav {
+	width: 250px;
+}
+
+aside {
+	order: 1;
+}
+
+main {
+	flex-grow: 1;
+	overflow-y: auto;
+}
+
+footer {}
+
+
+/* A few responsive properties added */
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	div {
+		flex-direction: column;
+	}
+
+	aside,
+	nav {
+		width: auto;
+		min-height: 100px;
+	}
+
+	nav {
+		order: 1;
+	}
+	aside {
+		order: 2;
+	}
+}

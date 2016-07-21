@@ -1,0 +1,28 @@
+body {
+	background-color: #ECF0F1;
+	color: #545454;
+}
+
+a {
+	color: #674172;
+}
+
+a:hover {
+	color: #913D88;
+}
+
+header {
+	background-color: #674172;
+	color: #FFFFFF;
+}
+aside,
+nav {
+	background-color: #BE90D4
+}
+main {
+	background-color: #DCC6E0
+}
+footer {
+	background-color: #913D88;
+	color: #FFFFFF;
+}
