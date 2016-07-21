@@ -3,7 +3,7 @@ Kan source-code ah layouts hrang hrang kan hmuh theih tur te
 
 1. Holy Grail
 2. Two Columns
-3. Single Columns (Centered content)
+3. Single Column (Centered content)
 
 ###Flexbox hi enge anih?
 Flexbox chu layout siamna chidang a nimai a, kan grid system hriat lar **Box** model thlak thleng thei tura duan a ni. A thatna tam tak a awm a, a thatlohna sawi tur em em ka la hreloa (ka la hman tam loh vang te pawh a ni ange). A thatlohna tuna ka sawi ve theih awmchhun chu Browser support ah a ni. Browser thenkhatin flexbox an la support chiahloa, browser thenkhat in an implement dan a in ang chiahlo bawk, chubakah *vendor-prefix* ala ngai hi a buaithlak lai a ni.
